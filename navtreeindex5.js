@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"class_mau_power_1_1_mpr_settings.html#afd19b502c29d0bea3bb4dd0d3b5a0496":[12,0,12,5,3],
 "class_mau_power_1_1_mpr_settings.html#afd19b502c29d0bea3bb4dd0d3b5a0496":[13,0,10,5,3],
 "class_mau_power_1_1_node.html":[12,0,12,6],
 "class_mau_power_1_1_node.html":[13,0,10,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "class_p4_1_1_b_m_v2_1_1_json_objects.html#a34323d2fa85423ad25f592c7de0f7b4d":[12,0,14,0,17,20],
 "class_p4_1_1_b_m_v2_1_1_json_objects.html#a34323d2fa85423ad25f592c7de0f7b4d":[13,0,12,2,19,20],
 "class_p4_1_1_b_m_v2_1_1_json_objects.html#a391aa2f86bc1a18688e62cf6f118155b":[12,0,14,0,17,16],
-"class_p4_1_1_b_m_v2_1_1_json_objects.html#a391aa2f86bc1a18688e62cf6f118155b":[13,0,12,2,19,16],
-"class_p4_1_1_b_m_v2_1_1_json_objects.html#a395d9d3366a662b0344dab45a15f34b3":[12,0,14,0,17,23]
+"class_p4_1_1_b_m_v2_1_1_json_objects.html#a391aa2f86bc1a18688e62cf6f118155b":[13,0,12,2,19,16]
 };

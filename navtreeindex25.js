@@ -1,5 +1,6 @@
 var NAVTREEINDEX25 =
 {
+"class_p4_1_1_u_b_p_f_1_1_enum_on32_bits.html":[13,0,12,24,1],
 "class_p4_1_1_u_b_p_f_1_1_mid_end.html":[13,0,12,24,3],
 "class_p4_1_1_u_b_p_f_1_1_out_header_size.html":[13,0,12,24,4],
 "class_p4_1_1_u_b_p_f_1_1_u_b_p_f_bool_type.html":[13,0,12,24,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX25 =
 "class_p4_1_1bitvec.html":[12,0,14,39],
 "class_p4_1_1bitvec.html":[13,0,12,54],
 "class_p4_1_1bitvec.html#a00c059dfb2a1007d826d8fbe1a359e83":[12,0,14,39,3],
-"class_p4_1_1bitvec.html#a00c059dfb2a1007d826d8fbe1a359e83":[13,0,12,54,3],
-"class_p4_1_1bitvec_1_1const__bitref.html":[12,0,14,39,0]
+"class_p4_1_1bitvec.html#a00c059dfb2a1007d826d8fbe1a359e83":[13,0,12,54,3]
 };

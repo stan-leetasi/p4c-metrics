@@ -1,5 +1,6 @@
 var NAVTREEINDEX30 =
 {
+"class_pragma_no_overlay.html#ad03363dfa2379085ba57f25c7205a442":[13,0,552,0],
 "class_pragma_no_pack.html":[13,0,553],
 "class_pragma_solitary.html":[13,0,554],
 "class_predication_based_control_edges.html":[13,0,555],
@@ -248,6 +249,5 @@ var NAVTREEINDEX30 =
 "classassoc_1_1set.html":[12,0,1,4],
 "classassoc_1_1set.html":[13,0,1,4],
 "classassoc_1_1set.html#a7f288891bfa16898cb128f1b2fbb2e4a":[12,0,1,4,0],
-"classassoc_1_1set.html#a7f288891bfa16898cb128f1b2fbb2e4a":[13,0,1,4,0],
-"classautoclone__ptr.html":[13,0,88]
+"classassoc_1_1set.html#a7f288891bfa16898cb128f1b2fbb2e4a":[13,0,1,4,0]
 };

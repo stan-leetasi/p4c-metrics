@@ -165,7 +165,7 @@ $(function(){initNavTree('ebpf_backend.html',''); initResizable(true); });
         <a href="#compiling-p4-to-ebpf">Compiling P4 to eBPF</a>
         <ul>
           <li class="level3">
-            <a href="#dependencies-2">Dependencies</a>
+            <a href="#dependencies-1">Dependencies</a>
           </li>
           <li class="level3">
             <a href="#supported-capabilities">Supported capabilities</a>
@@ -184,7 +184,7 @@ $(function(){initNavTree('ebpf_backend.html',''); initResizable(true); });
         </ul>
       </li>
       <li class="level2">
-        <a href="#autotoc_md0">autotoc_md0</a>
+        <a href="#autotoc_md3">autotoc_md3</a>
         <ul>
           <li class="level3 empty">
             <ul>
@@ -323,10 +323,10 @@ $(function(){initNavTree('ebpf_backend.html',''); initResizable(true); });
     </ul>
   </li>
   <li class="level1">
-    <a href="#getting-started-1">Getting started</a>
+    <a href="#getting-started">Getting started</a>
     <ul>
       <li class="level2">
-        <a href="#installation-1">Installation</a>
+        <a href="#installation">Installation</a>
       </li>
       <li class="level2">
         <a href="#using-psa-ebpf">Using PSA-eBPF</a>
@@ -452,7 +452,7 @@ P4 and eBPF overlap in capabilities</div></div>
 <div class="line">P4 ---&gt;  | P4-to-eBPF | ---&gt; C ----&gt; | clang/BCC | --&gt; eBPF</div>
 <div class="line">         --------------              -------</div>
 </div><!-- fragment --><p>The P4 program only describes the packet processing <em>data plane</em>, that runs in the Linux kernel. The <em>control plane</em> must be separately implemented by the user. BCC tools simplify this task considerably, by generating C and/or Python APIs that expose the dataplane/control-plane APIs.</p>
-<h3><a class="anchor" id="dependencies-2"></a>
+<h3><a class="anchor" id="dependencies-1"></a>
 Dependencies</h3>
 <p>Our eBPF programs require a Linux kernel with version 4.15 or newer. The eBPF backend relies on <a href="https://github.com/libbpf/libbpf">libbpf</a>, which provides kernel- and distribution-independent header files. libbpf must be available in order to compile the generated eBPF C code into eBPF byte code. To install libbpf, run <code>python3 backends/ebpf/build_libbpf</code> in the p4c folder.</p>
 <p>In addition the following packages and programs are required to run the full test suite:</p>
@@ -503,8 +503,8 @@ Translating parsers</h4>
 </table>
 <h4><a class="anchor" id="translating-match-action-pipelines"></a>
 Translating match-action pipelines</h4>
-<h2><a class="anchor" id="autotoc_md0"></a>
-autotoc_md0</h2>
+<h2><a class="anchor" id="autotoc_md3"></a>
+autotoc_md3</h2>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">P4 Construct   </th><th class="markdownTableHeadNone">C Translation    </th></tr>
@@ -881,9 +881,9 @@ value_set</h3>
 <h3><a class="anchor" id="random"></a>
 Random</h3>
 <p>The <a href="https://p4.org/p4-spec/docs/PSA.html#sec-random">Random</a> extern is a mean to retrieve a pseudo-random number in a specified range within a P4 program. The PSA-eBPF compiler uses the <code>bpf_get_prandom_u32()</code> BPF helper to get a pseudo-random number. Each <code>read()</code> operation on the Random extern in a P4 program is translated into a call to the BPF helper.</p>
-<h1><a class="anchor" id="getting-started-1"></a>
+<h1><a class="anchor" id="getting-started"></a>
 Getting started</h1>
-<h2><a class="anchor" id="installation-1"></a>
+<h2><a class="anchor" id="installation"></a>
 Installation</h2>
 <p>Follow standard steps for the P4 compiler to install the eBPF backend with the PSA support.</p>
 <h2><a class="anchor" id="using-psa-ebpf"></a>

@@ -137,10 +137,10 @@ $(function(){initNavTree('p4testgen.html',''); initResizable(true); });
         <a href="#features">Features</a>
       </li>
       <li class="level2">
-        <a href="#installation-3">Installation</a>
+        <a href="#installation-2">Installation</a>
         <ul>
           <li class="level3">
-            <a href="#dependencies-5">Dependencies</a>
+            <a href="#dependencies-4">Dependencies</a>
           </li>
         </ul>
       </li>
@@ -177,7 +177,7 @@ $(function(){initNavTree('p4testgen.html',''); initResizable(true); });
         </ul>
       </li>
       <li class="level2">
-        <a href="#usage-3">Usage</a>
+        <a href="#usage-4">Usage</a>
         <ul>
           <li class="level3">
             <a href="#coverage">Coverage</a>
@@ -241,13 +241,13 @@ Features</h2>
 <li><b>Support for multiple test frameworks</b>: P4Testgen generates abstract tests that can be serialized into formats suitable for any test framework. P4Testgen extensions can generate tests for STF, PTF, and P4Runtime Protobuf messages.</li>
 <li><b>Coverage heuristics</b>: To limit the number of generated tests, P4Testgen uses coverage heuristics. It employs coverage-guided search to generate tests that cover new nodes in the P4 program, such as statements or tables. P4Testgen also supports custom stop metrics to ensure that test case generation stops when a user-defined goal has been reached.</li>
 </ul>
-<h2><a class="anchor" id="installation-3"></a>
+<h2><a class="anchor" id="installation-2"></a>
 Installation</h2>
 <p>P4Testgen depends on the P4Tools framework and is automatically installed with P4Tools. Please follow the instructions listed <a href="https://github.com/p4lang/p4c/tree/main/backends/p4tools#building">here</a> to install P4Testgen. The main binary <code>p4testgen</code> can be found in the <code>build</code> folder after a successful installation.</p>
 <p>P4Testgen is available as part of the <a href="https://hub.docker.com/r/p4lang/p4c/">official P4C docker image</a>. On Debian-based systems, it is also possible to install a P4Testgen binary by following <a href="https://github.com/p4lang/p4c#installing-packaged-versions-of-p4c">these</a> instructions.</p>
-<h3><a class="anchor" id="dependencies-5"></a>
+<h3><a class="anchor" id="dependencies-4"></a>
 Dependencies</h3>
-<p>In addition to <a class="el" href="getting_started.html#dependencies">P4Tools'</a> own dependencies P4Testgen depends on the following external software:</p><ul>
+<p>In addition to <a class="el" href="behavioral_model_backend.html#dependencies">P4Tools'</a> own dependencies P4Testgen depends on the following external software:</p><ul>
 <li><a href="https://github.com/pantor/inja">inja</a> template engine for testcase generation.</li>
 </ul>
 <p>These dependencies are automatically installed via CMakelist's <a href="https://cmake.org/cmake/help/latest/module/FetchContent.html">FetchContent</a> module.</p>
@@ -278,7 +278,7 @@ Symbolic Variables</h4>
 <h4><a class="anchor" id="taint"></a>
 Taint</h4>
 <p>P4Testgen uses bit-level taint tracking to keep track of nondeterminism in the P4 program. An expression is considered tainted if the value of its bits (or simply just a sub-expression) is unpredictable. This could happen because of reads from an uninitialized variable, unimplemented checksums, or simply because of random generators. P4Testgen's core framework marks some constructs tainted, for example uninitialized variables, but otherwise leaves it up to the P4Testgen extension whether to mark a particular expression or method call tainted. Similiarly, it is up to the extension how tainted values are resolved. An extension can either ignore them or throw an error.</p>
-<h2><a class="anchor" id="usage-3"></a>
+<h2><a class="anchor" id="usage-4"></a>
 Usage</h2>
 <p>To access the possible options for <code>p4testgen</code> use <code>p4testgen --help</code>. To generate a test for a particular target and P4 architecture, run the following command:</p>
 <div class="fragment"><div class="line">./p4testgen --target [TARGET] --arch [ARCH] --max-tests 10 --out-dir [OUT] prog.p4</div>

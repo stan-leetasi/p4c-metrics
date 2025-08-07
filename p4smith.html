@@ -134,7 +134,7 @@ $(function(){initNavTree('p4smith.html',''); initResizable(true); });
   <li class="level1 empty">
     <ul>
       <li class="level2">
-        <a href="#installation-2">Installation</a>
+        <a href="#installation-1">Installation</a>
       </li>
       <li class="level2">
         <a href="#extensions">Extensions</a>
@@ -154,7 +154,7 @@ $(function(){initNavTree('p4smith.html',''); initResizable(true); });
         </ul>
       </li>
       <li class="level2">
-        <a href="#usage-2">Usage</a>
+        <a href="#usage-3">Usage</a>
       </li>
       <li class="level2">
         <a href="#further-reading">Further Reading</a>
@@ -171,7 +171,7 @@ $(function(){initNavTree('p4smith.html',''); initResizable(true); });
 </div>
 <div class="textblock"><p><a href="https://github.com/p4lang/p4c/actions/workflows/ci-p4tools.yml"><img src="https://github.com/p4lang/p4c/actions/workflows/ci-p4tools.yml/badge.svg" alt="Status" style="pointer-events: none;" class="inline"/></a></p>
 <p>P4Smith is an extensible random P4 program generator in the spirit of <a href="https://en.wikipedia.org/wiki/Csmith">CSmith</a>. P4Smith generates random, but valid P4 programs for various P4 targets, for example the <a href="https://github.com/p4lang/behavioral-model/blob/main/docs/simple_switch.md">v1model.p4</a> architecture on <a href="https://github.com/p4lang/behavioral-model">BMv2</a> or <code>tna.p4</code> running on Tofino 1. P4Smiths generates programs that are valid according to the latest version of the (P4 specification)[<a href="https://p4.org/p4-spec/docs/P4-16-working-spec.html">https://p4.org/p4-spec/docs/P4-16-working-spec.html</a>] or the restrictions of the specific target.</p>
-<h2><a class="anchor" id="installation-2"></a>
+<h2><a class="anchor" id="installation-1"></a>
 Installation</h2>
 <p>P4Smith depends on the P4Tools framework and is automatically installed with P4Tools. Please follow the instructions listed <a href="https://github.com/p4lang/p4c/tree/main/backends/p4tools#building">here</a> to install P4Smith. The main binary <code>p4smith</code> can be found in the <code>build</code> folder after a successful installation.</p>
 <p>P4Smith is available as part of the <a href="https://hub.docker.com/r/p4lang/p4c/">official P4C docker image</a>. On Debian-based systems, it is also possible to install a P4Smith binary by following <a href="https://github.com/p4lang/p4c#installing-packaged-versions-of-p4c">these</a> instructions.</p>
@@ -194,7 +194,7 @@ pna.p4 on the DPDK SoftNIC</h3>
 tna.p4 on Tofino 1</h3>
 <p><a href="https://github.com/p4lang/p4c/tree/main/backends/p4tools/modules/smith/targets/tofino">targets/tna</a></p>
 <p>P4Smith can also generate programs for the <code>tna</code> architecture on Tofino 1. The programs are intended to be compiled on the Tofino compiler.</p>
-<h2><a class="anchor" id="usage-2"></a>
+<h2><a class="anchor" id="usage-3"></a>
 Usage</h2>
 <p>To access the possible options for <code>p4smith</code> use <code>p4smith --help</code>. To generate a test for a particular target and P4 architecture, run the following command:</p>
 <div class="fragment"><div class="line">./p4smith --target [TARGET] --arch [ARCH] prog.p4</div>

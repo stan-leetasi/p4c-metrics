@@ -134,10 +134,10 @@ $(function(){initNavTree('graphs_backend.html',''); initResizable(true); });
   <li class="level1 empty">
     <ul>
       <li class="level2">
-        <a href="#dependencies-3">Dependencies</a>
+        <a href="#dependencies-2">Dependencies</a>
       </li>
       <li class="level2">
-        <a href="#usage">Usage</a>
+        <a href="#usage-1">Usage</a>
       </li>
       <li class="level2">
         <a href="#format-of-json-output">Format of json output</a>
@@ -151,10 +151,10 @@ $(function(){initNavTree('graphs_backend.html',''); initResizable(true); });
 </div>
 <div class="textblock"><p>This backend produces visual representations of a P4 program as dot files. For now it supports the generation of graphs for top-level control and parser blocks, generation of fullGraph, which merges graphs for top-level program blocks and json representation of fullGraph.</p>
 <p>dot files can be processed by the <code>dot</code> command from <a href="http://graphviz.org">Graphviz</a>, which can lay out the nodes and edges of the graphs and write the result in many different graphical file formats.</p>
-<h2><a class="anchor" id="dependencies-3"></a>
+<h2><a class="anchor" id="dependencies-2"></a>
 Dependencies</h2>
 <p>In addition to other P4C dependencies, this backend requires the Boost graph headers. On a Debian system, they can be installed with <code>sudo apt-get install libboost-graph-dev</code>.</p>
-<h2><a class="anchor" id="usage"></a>
+<h2><a class="anchor" id="usage-1"></a>
 Usage</h2>
 <div class="fragment"><div class="line">mkdir out</div>
 <div class="line">p4c-graphs &lt;prog.p4&gt; --graphs-dir out</div>

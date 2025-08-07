@@ -229,7 +229,7 @@ var searchData=
   ['addinittable_226',['AddInitTable',['../class_add_init_table.html',1,'']]],
   ['addintrinsicconstraints_227',['AddIntrinsicConstraints',['../class_add_intrinsic_constraints.html',1,'']]],
   ['addintrinsicmetadata_228',['AddIntrinsicMetadata',['../class_b_f_n_1_1_add_intrinsic_metadata.html',1,'BFN']]],
-  ['additional_20documentation_229',['Additional documentation',['../repository_structure.html#additional-documentation',1,'Additional documentation'],['../getting_started.html#additional-documentation-1',1,'Additional documentation']]],
+  ['additional_20documentation_229',['Additional documentation',['../repository_structure.html#additional-documentation',1,'']]],
   ['addkeyfield_230',['addKeyField',['../class_p4_1_1_d_p_d_k_1_1_dpdk_context_generator.html#a3ae13841b71ad9eb464ac8dc951a31a9',1,'P4::DPDK::DpdkContextGenerator']]],
   ['addmatchattributes_231',['addMatchAttributes',['../class_p4_1_1_d_p_d_k_1_1_dpdk_context_generator.html#ae5a4c6519af3db258fb9cac6338a2e38',1,'P4::DPDK::DpdkContextGenerator']]],
   ['addmatchtables_232',['addMatchTables',['../class_p4_1_1_d_p_d_k_1_1_dpdk_context_generator.html#a22711dd76f970a6a3cbc50bfe377dae1',1,'P4::DPDK::DpdkContextGenerator']]],

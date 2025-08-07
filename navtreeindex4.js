@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"class_header_name_mau_inspector.html":[13,0,357],
 "class_header_name_mau_inspector.html#ac8de9ac8ecf93ee6e469c880e5bca3a0":[13,0,357,0],
 "class_header_push_pop.html":[13,0,358],
 "class_header_validity_analysis.html":[13,0,359],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "class_mau_power_1_1_mpr_settings.html#ad6d3e39bc8764d23b1696ecae73ef69b":[12,0,12,5,0],
 "class_mau_power_1_1_mpr_settings.html#ad6d3e39bc8764d23b1696ecae73ef69b":[13,0,10,5,0],
 "class_mau_power_1_1_mpr_settings.html#af3587b045751401f4e11a84eab0dfbd3":[12,0,12,5,2],
-"class_mau_power_1_1_mpr_settings.html#af3587b045751401f4e11a84eab0dfbd3":[13,0,10,5,2],
-"class_mau_power_1_1_mpr_settings.html#afd19b502c29d0bea3bb4dd0d3b5a0496":[12,0,12,5,3]
+"class_mau_power_1_1_mpr_settings.html#af3587b045751401f4e11a84eab0dfbd3":[13,0,10,5,2]
 };

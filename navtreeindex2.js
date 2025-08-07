@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"class_b_f_n_1_1_resolve_size_of_operator.html":[12,0,4,176],
 "class_b_f_n_1_1_resolve_size_of_operator.html":[13,0,4,180],
 "class_b_f_n_1_1_resources_logging.html":[12,0,4,177],
 "class_b_f_n_1_1_resources_logging.html":[13,0,4,181],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "class_constrained_slice.html#a9a8b25184eedaba712c1b3ebb4d13a36":[13,0,196,1],
 "class_constraint_solver.html":[13,0,198],
 "class_constraint_solver.html#a4988ffe1139d6eb5b50a0ee609668e77":[13,0,198,0],
-"class_constraint_solver.html#abf4afd66832137b50f16af81a81f5de4":[13,0,198,2],
-"class_constraint_solver.html#aeac8ad6574821a1b5c970c432d524ea3":[13,0,198,1]
+"class_constraint_solver.html#abf4afd66832137b50f16af81a81f5de4":[13,0,198,2]
 };

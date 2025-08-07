@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"class_p4_1_1_find_symbols.html":[13,0,12,216],
 "class_p4_1_1_find_type_specializations.html":[12,0,14,203],
 "class_p4_1_1_find_type_specializations.html":[13,0,12,218],
 "class_p4_1_1_find_types_in_log_msg_invocation_to_replace.html":[12,0,14,202],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "class_p4_1_1_name_gateways.html":[13,0,12,335],
 "class_p4_1_1_name_generator.html":[12,0,14,321],
 "class_p4_1_1_name_generator.html":[13,0,12,336],
-"class_p4_1_1_nested_structs.html":[12,0,14,323],
-"class_p4_1_1_nested_structs.html":[13,0,12,338]
+"class_p4_1_1_nested_structs.html":[12,0,14,323]
 };

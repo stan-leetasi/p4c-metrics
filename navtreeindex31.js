@@ -1,5 +1,6 @@
 var NAVTREEINDEX31 =
 {
+"classautoclone__ptr.html":[13,0,88],
 "classbinout_1_1byte4.html":[12,0,5,0],
 "classbinout_1_1byte4.html":[13,0,5,0],
 "classbinout_1_1byte8.html":[12,0,5,1],
@@ -170,7 +171,6 @@ var NAVTREEINDEX31 =
 "functions_y.html":[13,3,0,23],
 "functions_z.html":[13,3,0,24],
 "functions_~.html":[13,3,0,25],
-"getting_started.html":[1],
 "graphs_backend.html":[5,6],
 "hierarchy.html":[13,2],
 "index.html":[],

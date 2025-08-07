@@ -25,7 +25,7 @@
 var menudata={children:[
 {text:"Main Page",url:"index.html"},
 {text:"P4C Repository Organization",url:"repository_structure.html"},
-{text:"Getting Started",url:"getting_started.html"},
+{text:"Getting Started",url:"@ref getting_started"},
 {text:"P4C Intermediate Representation (IR)",url:"intermediate_representation_ir.html"},
 {text:"Frontend",url:"frontend.html"},
 {text:"Midend",url:"midend.html"},

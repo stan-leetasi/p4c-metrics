@@ -1,5 +1,6 @@
 var NAVTREEINDEX0 =
 {
+"@ref getting_started":[1],
 "annotated.html":[13,0],
 "behavioral_model_backend.html":[5,0],
 "changelog.html":[11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "class_b_f_n_1_1_b_f_r_t_1_1_b_f_runtime_generator.html":[13,0,4,0,0],
 "class_b_f_n_1_1_b_f_r_t_1_1_b_f_runtime_generator.html#a40da7ae35d841e8e0415d75bf835af3e":[13,0,4,0,0,7],
 "class_b_f_n_1_1_b_f_r_t_1_1_b_f_runtime_generator.html#a6d0652a56d0d1dc3656cb0c186ac7b0d":[13,0,4,0,0,6],
-"class_b_f_n_1_1_b_f_r_t_1_1_b_f_runtime_generator.html#ad541a0afae7373dd63e3f5f999a8b87d":[13,0,4,0,0,9],
-"class_b_f_n_1_1_b_f_r_t_1_1_b_f_runtime_generator.html#af9bee14d9b08cbd2b0cf2ed4ed6ad6b4":[13,0,4,0,0,8]
+"class_b_f_n_1_1_b_f_r_t_1_1_b_f_runtime_generator.html#ad541a0afae7373dd63e3f5f999a8b87d":[13,0,4,0,0,9]
 };

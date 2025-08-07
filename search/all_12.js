@@ -188,7 +188,7 @@ var searchData=
   ['homogeneous_5fslicing_185',['homogeneous_slicing',['../struct_p_h_v_1_1_slicing_1_1_iterator_config.html#aa70619b4e01a4beaf8e5b924dba8ae37',1,'PHV::Slicing::IteratorConfig']]],
   ['hook_186',['hook',['../class_p4_1_1_constant_folding_policy.html#a6ecdc32eff3b3baf1c96b005630ab343',1,'P4::ConstantFoldingPolicy']]],
   ['hooks_187',['Kernel hooks',['../ebpf_backend.html#kernel-hooks',1,'']]],
-  ['how_20to_20contribute_188',['How to Contribute',['../getting_started.html#how-to-contribute',1,'How to Contribute'],['../contribute.html#how-to-contribute-1',1,'How to Contribute']]],
+  ['how_20to_20contribute_188',['How to Contribute',['../contribute.html#how-to-contribute',1,'']]],
   ['how_20to_20inject_20custom_20extern_20function_20to_20the_20generated_20ebpf_20program_189',['How to inject custom extern function to the generated eBPF program?',['../ebpf_backend.html#how-to-inject-custom-extern-function-to-the-generated-ebpf-program',1,'']]],
   ['how_20to_20run_20tests_190',['How to Run tests',['../p4testgen.html#how-to-run-tests',1,'']]],
   ['how_20to_20run_20the_20generated_20ebpf_20program_191',['How to run the generated eBPF program',['../ebpf_backend.html#how-to-run-the-generated-ebpf-program',1,'']]],
